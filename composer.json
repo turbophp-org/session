@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/session",
+  "description": "TurboPHP 框架会话管理库，提供统一会话接口、存储驱动支持和安全机制，方便用户状态管理与跨请求数据保存。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "session",
+    "state",
+    "storage",
+    "user"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/session/issues",
+    "source": "https://github.com/turbophp-org/session",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/session/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Session\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
